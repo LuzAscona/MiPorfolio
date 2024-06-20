@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+html{
+  scroll-padding-top: 4rem;
+}
 body{
     background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
@@ -55,25 +58,26 @@ section {
 }
 #experiencia ul{
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 5;
+  margin: 10;
 
 }
 #experiencia ul li{
   margin-bottom: 10px;
 }
 
-#proyecto ul {
+#proyectos ul {
   list-style: none;
   padding: 0;
   margin: 0;  
 }
-#proyecto ul li{
+#proyectos ul li{
   text-decoration: none;
+  list-style: none;
   color: #333;
 
 }
-#proyecto ul li a:hover {
+#proyectos ul li a:hover {
   text-decoration: underline;
 }
 #sociales {
